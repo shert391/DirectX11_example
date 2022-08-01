@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/shert/desktop/directx11/directx11_example/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3d8d89dbc4d88e85a3881950ae7404de27ce40770dc572f22c8cbd10352a41fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shert/desktop/directx11/directx11_example/window.h"
+          },
+          "hashes": {
+            "sha-256": "8f327a585c2d93fc4bc52e142be5901ae0998f026453e6b0fa27768f3de1a35d"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿  directx.cpp
+C:\Users\Shert\Desktop\DirectX11\directx11_example\directx.h(2,10): fatal error C1083: Не удается открыть файл включение: d3dx11.h: No such file or directory,
+  main.cpp
+  window.cpp
+C:\Users\Shert\Desktop\DirectX11\directx11_example\directx.h(2,10): fatal error C1083: Не удается открыть файл включение: d3dx11.h: No such file or directory,
+  Создание кода...
